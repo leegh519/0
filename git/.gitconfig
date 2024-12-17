@@ -1,0 +1,6 @@
+[user]
+	name = [global username]
+	email = [global user email]
+
+[includeIf "gitdir:personal directory"]
+    path = personal directory/.gitconfig-personal
