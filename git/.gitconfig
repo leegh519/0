@@ -1,6 +1,9 @@
 [user]
-	name = [global username]
-	email = [global user email]
+	name = {global username}
+	email = {global user email}
 
-[includeIf "gitdir:personal directory"]
-    path = personal directory/.gitconfig-personal
+[includeIf "gitdir:{personal directory}"]
+	path = {personal directory}/.gitconfig-personal
+
+[commit]
+	template = ~/.gitmessage.txt
